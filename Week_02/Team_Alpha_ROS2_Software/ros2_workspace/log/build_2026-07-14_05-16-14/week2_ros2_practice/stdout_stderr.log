@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/week2_ros2_practice/week2_ros2_practice.egg-info
+writing ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/PKG-INFO
+writing dependency_links to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/dependency_links.txt
+writing entry points to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/entry_points.txt
+writing requirements to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/requires.txt
+writing top-level names to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/top_level.txt
+writing manifest file '../../build/week2_ros2_practice/week2_ros2_practice.egg-info/SOURCES.txt'
+reading manifest file '../../build/week2_ros2_practice/week2_ros2_practice.egg-info/SOURCES.txt'
+writing manifest file '../../build/week2_ros2_practice/week2_ros2_practice.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build
+creating /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib
+creating /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib/week2_ros2_practice
+copying week2_ros2_practice/__init__.py -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib/week2_ros2_practice
+running install
+running install_lib
+creating /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice
+copying /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib/week2_ros2_practice/__init__.py -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice
+byte-compiling /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/share/ament_index
+creating /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/share/ament_index/resource_index
+creating /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/share/ament_index/resource_index/packages
+copying resource/week2_ros2_practice -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/share/ament_index/resource_index/packages
+copying package.xml -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/share/week2_ros2_practice
+running install_egg_info
+Copying ../../build/week2_ros2_practice/week2_ros2_practice.egg-info to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/install.log'
