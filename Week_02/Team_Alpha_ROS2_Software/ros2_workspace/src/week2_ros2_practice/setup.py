@@ -24,7 +24,7 @@ setup(
     'topic_publisher = week2_ros2_practice.topic_publisher:main',
         'topic_subscriber = week2_ros2_practice.topic_subscriber:main',
 'velocity_publisher = week2_ros2_practice.velocity_publisher:main',
-
+'pose_subscriber = week2_ros2_practice.pose_subscriber:main',
         ],
     },
 )
