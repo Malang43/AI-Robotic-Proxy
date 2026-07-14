@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+'simple_node = week2_ros2_practice.simple_node:main',
         ],
     },
 )
