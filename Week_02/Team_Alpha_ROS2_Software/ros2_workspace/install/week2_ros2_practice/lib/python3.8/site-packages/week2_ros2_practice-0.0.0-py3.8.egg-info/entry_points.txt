@@ -1,5 +1,7 @@
 [console_scripts]
 pose_subscriber = week2_ros2_practice.pose_subscriber:main
+service_client = week2_ros2_practice.service_client:main
+service_server = week2_ros2_practice.service_server:main
 simple_node = week2_ros2_practice.simple_node:main
 topic_publisher = week2_ros2_practice.topic_publisher:main
 topic_subscriber = week2_ros2_practice.topic_subscriber:main

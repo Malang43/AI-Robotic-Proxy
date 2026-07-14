@@ -25,6 +25,7 @@ setup(
         'topic_subscriber = week2_ros2_practice.topic_subscriber:main',
 'velocity_publisher = week2_ros2_practice.velocity_publisher:main',
 'pose_subscriber = week2_ros2_practice.pose_subscriber:main',
-        ],
+'service_server = week2_ros2_practice.service_server:main',
+'service_client = week2_ros2_practice.service_client:main',        ],
     },
 )
