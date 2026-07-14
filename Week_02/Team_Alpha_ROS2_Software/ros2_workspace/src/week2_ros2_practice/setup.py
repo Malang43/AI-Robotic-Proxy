@@ -28,6 +28,8 @@ setup(
             'service_server = week2_ros2_practice.service_server:main',
             'service_client = week2_ros2_practice.service_client:main',
             'parameter_node = week2_ros2_practice.parameter_node:main',
+'action_server = week2_ros2_practice.action_server:main',
+'action_client = week2_ros2_practice.action_client:main',
         ],
     },
 )

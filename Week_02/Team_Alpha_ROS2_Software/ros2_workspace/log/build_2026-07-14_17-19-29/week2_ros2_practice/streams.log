@@ -1,0 +1,36 @@
+[0.845s] Invoking command in '/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/src/week2_ros2_practice': PYTHONPATH=/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week2_ros2_practice build --build-base /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build install --record /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/install.log --install-scripts $base/lib/week2_ros2_practice --single-version-externally-managed install_data
+[1.130s] running egg_info
+[1.131s] writing ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/PKG-INFO
+[1.131s] writing dependency_links to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/dependency_links.txt
+[1.132s] writing entry points to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/entry_points.txt
+[1.132s] writing requirements to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/requires.txt
+[1.132s] writing top-level names to ../../build/week2_ros2_practice/week2_ros2_practice.egg-info/top_level.txt
+[1.176s] reading manifest file '../../build/week2_ros2_practice/week2_ros2_practice.egg-info/SOURCES.txt'
+[1.178s] writing manifest file '../../build/week2_ros2_practice/week2_ros2_practice.egg-info/SOURCES.txt'
+[1.179s] running build
+[1.179s] running build_py
+[1.179s] copying week2_ros2_practice/action_server.py -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib/week2_ros2_practice
+[1.179s] copying week2_ros2_practice/action_client.py -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib/week2_ros2_practice
+[1.180s] running install
+[1.181s] running install_lib
+[1.182s] copying /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib/week2_ros2_practice/action_server.py -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice
+[1.182s] copying /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build/lib/week2_ros2_practice/action_client.py -> /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice
+[1.183s] byte-compiling /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice/action_server.py to action_server.cpython-38.pyc
+[1.185s] byte-compiling /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice/action_client.py to action_client.cpython-38.pyc
+[1.186s] running install_data
+[1.186s] running install_egg_info
+[1.188s] removing '/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice-0.0.0-py3.8.egg-info' (and everything under it)
+[1.189s] Copying ../../build/week2_ros2_practice/week2_ros2_practice.egg-info to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages/week2_ros2_practice-0.0.0-py3.8.egg-info
+[1.190s] running install_scripts
+[1.213s] Installing action_client script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.213s] Installing action_server script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.214s] Installing parameter_node script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.214s] Installing pose_subscriber script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.214s] Installing service_client script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.214s] Installing service_server script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.215s] Installing simple_node script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.215s] Installing topic_publisher script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.215s] Installing topic_subscriber script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.215s] Installing velocity_publisher script to /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/week2_ros2_practice
+[1.216s] writing list of installed files to '/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/install.log'
+[1.247s] Invoked command in '/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/src/week2_ros2_practice' returned '0': PYTHONPATH=/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/install/week2_ros2_practice/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week2_ros2_practice build --build-base /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/build install --record /home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_ROS2_Software/ros2_workspace/build/week2_ros2_practice/install.log --install-scripts $base/lib/week2_ros2_practice --single-version-externally-managed install_data
