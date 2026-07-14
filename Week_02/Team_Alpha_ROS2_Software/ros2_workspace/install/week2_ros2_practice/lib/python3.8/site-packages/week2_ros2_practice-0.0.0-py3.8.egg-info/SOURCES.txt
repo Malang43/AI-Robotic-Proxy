@@ -13,6 +13,7 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 week2_ros2_practice/__init__.py
+week2_ros2_practice/parameter_node.py
 week2_ros2_practice/pose_subscriber.py
 week2_ros2_practice/service_client.py
 week2_ros2_practice/service_server.py

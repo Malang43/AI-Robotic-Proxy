@@ -1,4 +1,5 @@
 [console_scripts]
+parameter_node = week2_ros2_practice.parameter_node:main
 pose_subscriber = week2_ros2_practice.pose_subscriber:main
 service_client = week2_ros2_practice.service_client:main
 service_server = week2_ros2_practice.service_server:main
