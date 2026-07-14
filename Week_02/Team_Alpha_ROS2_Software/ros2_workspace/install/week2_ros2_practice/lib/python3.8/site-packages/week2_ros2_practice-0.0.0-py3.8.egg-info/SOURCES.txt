@@ -14,3 +14,5 @@ test/test_flake8.py
 test/test_pep257.py
 week2_ros2_practice/__init__.py
 week2_ros2_practice/simple_node.py
+week2_ros2_practice/topic_publisher.py
+week2_ros2_practice/topic_subscriber.py
