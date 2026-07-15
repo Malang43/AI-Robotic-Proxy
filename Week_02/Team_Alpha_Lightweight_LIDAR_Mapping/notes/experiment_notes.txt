@@ -1,0 +1,36 @@
+Week 02 – Lightweight Python-Based RPLIDAR Local Scan Visualization
+
+Purpose:
+The purpose of this task was to capture real RPLIDAR scan data and generate a lightweight local scan visualization without using Gazebo. This was done because the UGV platform was not powered, so real robot odometry (/odom), TF frames, and full SLAM Toolbox mapping were not available.
+
+Hardware Used:
+- RPLIDAR S2M1R2
+- SLAMTEC USB adapter
+- Laptop with ROS2 Foxy
+
+Method:
+1. The RPLIDAR was connected to the laptop using the SLAMTEC USB adapter.
+2. The LIDAR was detected as /dev/ttyUSB0.
+3. The SLAMTEC ROS2 driver was launched.
+4. The LIDAR published real LaserScan data on the /scan topic.
+5. A Python script subscribed to /scan.
+6. The scan ranges were converted into X-Y coordinate points.
+7. A lightweight local scan map image was generated.
+8. Front object distance was measured from the scan data.
+
+Measured Result:
+Front sector angle: -10 degree to +10 degree
+Minimum front distance: 0.197 meter
+Average front distance: 0.221 meter
+
+Output Files:
+- output/front_object_distance.txt
+- output/rplidar_scan_points.csv
+- output/real_lidar_scan_points.png
+- output/lightweight_local_scan_map.png
+
+Important Note:
+This is not full SLAM mapping. This is a lightweight local scan visualization using real RPLIDAR /scan data from a fixed LIDAR position. Full SLAM Toolbox mapping requires /scan, /odom, TF frames, and powered UGV movement.
+
+Conclusion:
+The RPLIDAR successfully captured real distance data, and the Python script successfully generated a local scan visualization. Full SLAM Toolbox mapping is pending until the UGV platform is powered and odometry/TF data become available.
