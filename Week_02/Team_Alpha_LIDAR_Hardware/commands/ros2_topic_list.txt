@@ -1,0 +1,8 @@
+/clicked_point
+/goal_pose
+/initialpose
+/parameter_events
+/rosout
+/scan
+/tf
+/tf_static

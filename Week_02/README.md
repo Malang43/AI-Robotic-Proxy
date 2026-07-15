@@ -343,8 +343,87 @@ Relevance to project:
 | Parameter node               | Completed |
 | ROS bag recording and replay | Completed |
 | Action server/client         | Completed |
-
 ---
+
+## Real LIDAR Hardware Verification
+
+### RPLIDAR S2M1R2 Test
+
+The RPLIDAR S2M1R2 was connected to the laptop using the SLAMTEC USB adapter. The device was successfully detected as a serial USB device.
+
+Detected device:
+
+```bash
+/dev/ttyUSB0
+---
+cd ~/AI-Robotic-Proxy/Week_02
+nano README.md
+```
+
+
+## Real LIDAR Hardware Verification
+
+### RPLIDAR S2M1R2 Test
+
+The RPLIDAR S2M1R2 was connected to the laptop using the SLAMTEC USB adapter. The device was successfully detected as a serial USB device.
+
+Detected device:
+
+```bash
+/dev/ttyUSB0
+````
+
+Permission command:
+
+```bash
+sudo chmod 666 /dev/ttyUSB0
+```
+
+The SLAMTEC ROS2 driver was launched successfully using:
+
+```bash
+cd ~/AI-Robotic-Proxy/Week_02/Team_Alpha_LIDAR_Hardware/sllidar_ws
+source /opt/ros/foxy/setup.bash
+source install/setup.bash
+ros2 launch sllidar_ros2 view_sllidar_s2_launch.py
+```
+
+The LIDAR successfully published scan data on:
+
+```bash
+/scan
+```
+
+The scan data was checked using:
+
+```bash
+ros2 topic list
+ros2 topic echo /scan
+ros2 topic hz /scan
+```
+
+RViz2 was used to visualize the real LaserScan data.
+
+RViz2 settings:
+
+```bash
+Fixed Frame: laser
+LaserScan Topic: /scan
+```
+
+Evidence files:
+
+```bash
+Team_Alpha_LIDAR_Hardware/screenshots/rviz2_rplidar_scan.png
+Team_Alpha_LIDAR_Hardware/commands/scan_frequency.txt
+Team_Alpha_LIDAR_Hardware/commands/ros2_topic_list.txt
+```
+
+Status:
+
+```text
+RPLIDAR S2M1R2 detection, /scan topic publishing, frequency check, and RViz2 visualization were completed successfully.
+
 
 ## Hardware Tasks Not Completed Yet
 

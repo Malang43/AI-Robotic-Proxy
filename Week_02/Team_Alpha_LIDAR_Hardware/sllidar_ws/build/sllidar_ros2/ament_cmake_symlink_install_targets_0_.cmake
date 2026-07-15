@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_LIDAR_Hardware/sllidar_ws/build/sllidar_ros2/sllidar_node" "/home/farhat/AI-Robotic-Proxy/Week_02/Team_Alpha_LIDAR_Hardware/sllidar_ws/build/sllidar_ros2/sllidar_client" "TARGETS" "sllidar_node" "sllidar_client" "RUNTIME_DESTINATION" "lib/sllidar_ros2")
